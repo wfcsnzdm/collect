@@ -24,14 +24,14 @@ if ($_POST['submit']) {
     		echo "</script>";
 		}
 	else{	
-			echo "<script>alert(\"你已经提交过信息了\")</script>";
+			echo "<script>alert(\"您已经提交过信息了\")</script>";
 			echo "<script language='javascript' type='text/javascript'>";
 			echo "window.location.href='index.html'";
     		echo "</script>";
 		}
 	}
 	else{
-		echo "<script>alert(\"兄台你还有信息没填完啊！\")</script>";
+		echo "<script>alert(\"您还有信息没填完啊！\")</script>";
 		echo "<script language='javascript' type='text/javascript'>";
 		echo "window.location.href='index.html'";
     	echo "</script>";
